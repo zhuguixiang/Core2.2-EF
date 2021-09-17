@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core.EF.Application.Dto</name>
+    </assembly>
+    <members>
+        <member name="T:Core.EF.Application.Dto.UserInfoDto">
+            <summary>
+            用户信息Dto
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Dto.UserInfoDto.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Dto.UserInfoDto.UserCode">
+            <summary>
+            用户编码
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Dto.UserInfoDto.PassWord">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Dto.UserInfoDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Dto.UserInfoDto.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Dto.UserInfoDto.IsEnabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+    </members>
+</doc>

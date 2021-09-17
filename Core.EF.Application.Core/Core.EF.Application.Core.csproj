@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp2.2</TargetFramework>
+		<RestorePackagesPath>..\packages</RestorePackagesPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.19" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Core.EF.Application.Commom\Core.EF.Application.Commom.csproj" />
+		<ProjectReference Include="..\Core.EF.Application.Models\Core.EF.Application.Models.csproj" />
+		<ProjectReference Include="..\Core.EF.Application.Web.Commom\Core.EF.Application.Web.Commom.csproj" />
+	</ItemGroup>
+
+</Project>

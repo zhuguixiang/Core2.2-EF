@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core.EF.Application.Models</name>
+    </assembly>
+    <members>
+        <member name="T:Core.EF.Application.Models.BaseModel">
+            <summary>
+            基础模型
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.BaseModel.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.BaseModel.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.BaseModel.Removed">
+            <summary>
+            是否删除--软删除
+            </summary>
+        </member>
+        <member name="T:Core.EF.Application.Models.EFCoreContex">
+            <summary>
+            数据库实体--配置上下文
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.EFCoreContex.ConnectionString">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="M:Core.EF.Application.Models.EFCoreContex.CreateContext">
+            <summary>
+            创建数据库连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Core.EF.Application.Models.EFCoreContex.UserInfo">
+            <summary>
+            用户信息表
+            </summary>
+        </member>
+        <member name="T:Core.EF.Application.Models.UserInfo">
+            <summary>
+            用户表
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.UserInfo.UserCode">
+            <summary>
+            用户编码
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.UserInfo.PassWord">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.UserInfo.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.UserInfo.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Core.EF.Application.Models.UserInfo.IsEnabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+    </members>
+</doc>
