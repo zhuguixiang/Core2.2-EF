@@ -7,9 +7,10 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-	  <DocumentationFile>E:\EF+Core\Core.EF.Application\Core.EF.Application.Api\Core.EF.Application.Api.xml</DocumentationFile>
 	  <NoWarn>1701;1702;1591;</NoWarn>
 	  <OutputPath></OutputPath>
+	  <WarningLevel>5</WarningLevel>
+	  <DocumentationFile>E:\EF+Core\Core2.2-EF\Core.EF.Application.Api\Core.EF.Application.Api.xml</DocumentationFile>
 	</PropertyGroup>
 
 	<ItemGroup>
