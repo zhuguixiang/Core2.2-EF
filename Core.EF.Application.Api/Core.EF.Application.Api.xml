@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core.EF.Application.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Core.EF.Application.Api.Controllers.UserController.GetUserInfoList(Core.EF.Application.Web.Commom.GetListDataArgs)">
+            <summary>
+            分页获取用户信息
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
